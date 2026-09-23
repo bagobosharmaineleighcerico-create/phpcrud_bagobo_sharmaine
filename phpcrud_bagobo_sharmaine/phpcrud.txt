@@ -1,0 +1,17 @@
+CREATE TABLE Employee (
+Employee_id INT (50) AUTO_INCREMENT PRIMARY KEY,
+lastname VARCHAR (50),
+firstname VARCHAR (50)
+);
+
+
+ALTER TABLE employee
+ADD PASSWORD VARCHAR (50);
+
+UPDATE employee SET PASSWORD ='041005'
+WHERE employee_id =1
+
+
+ALTER TABLE employee
+ADD username VARCHAR (50)
+
